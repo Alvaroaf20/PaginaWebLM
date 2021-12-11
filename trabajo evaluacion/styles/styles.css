@@ -347,7 +347,7 @@ border-top: 3px solid green;
 
 }
 
-@media only screen and (max-width:500px){
+@media only screen and (max-width:600px){
     .cuarto {width: 90%;
     margin: 5%;}
 }
