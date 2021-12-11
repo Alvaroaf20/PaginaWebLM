@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjetas de sonido</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="shortcut icon" href="./images/tarjeta-de-sonido.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./javascript/javascript.js"></script>
+
+
+
+</head>
+<body>
+    <div id="container">
+        <nav>
+            <div class="topnav" id="myTopnav">
+            <a href="#hero"> inicio </a> 
+            <a href="#introduction"> introducción </a>
+            <a href="#funcionamiento"> funcionamiento </a>
+            <a href="#instalacion"> instalación </a>
+            <a href="#tipos"> tipos </a>
+            <a href="#precios"> precios </a>
+            <a href="#marcas"> marcas </a>
+            <a href="#opinion"> opinion </a>
+            <a href="#redes"> redes </a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+        </div>
+        
+        </nav>
+        <section id="hero">
+            <h1>
+                Tarjetas de sonido
+            </h1>
+            
+            <a href="#introduction"><p id="calltoaction">
+                ¡Infórmate!
+            </p></a>
+            <a href="#container"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+        </section>
+        <section id="introduction">
+            
+            <h1>Introducción </h1>
+            <img id="portada" src="./images/portada.jpg" alt="Tarjeta de sonido">
+            <p>La tarjeta de sonido es una tarjeta de expansión. Esta tarjeta tiene como función aumentar
+                las capacidades del ordenador al que se instala .En este caso esta tarjeta sirve para la
+                entrada y salida de audio entre el ordenador y el exterior por medio de puertos de audio. </p>
+            <p> La tarjeta de audio se inserta dentro de las ranuras de expansión o “Slots” integradas en la
+                placa base y se atornilla al gabinete para evitar movimientos. Todas las tarjetas de sonido
+                integran varios puertos para conectar los dispositivos externos tales como altavoces,
+                micrófonos, teclados musicales, etc.</p>
+            
+        </section>
+        
+        <section id="funcionamiento">
+            <h1>Funcionamiento de la tarjeta de sonido</h1>
+            <p>La mayoría de las tarjetas de sonido usan un DAC (convertidor de digital a analógico) para
+                convertir las señales de audio digital a analógicas. La señal se emite a los auriculares y
+                otros dispositivos acústicos. Las tarjetas más avanzadas pueden incluir más de un chip de
+                sonido para soportar altas velocidades de datos y realizar múltiples funciones
+                simultáneamente</p>
+            <p>La mayoría de las tarjetas de sonido tienen puertos para conectar altavoces, micrófonos y
+                dispositivos de asistencia. Pero también hay tarjetas con una gran cantidad de puertos de
+                entrada y salida diseñados para tareas más avanzadas.Los más comunes son:
+                </p>
+            <ul id="lista">
+                <li id="rosa">Rosa:entrada de audio de micrófono</li>
+                <li id="azul">Azul claro:entrada de audio</li>
+                <li id="verde">Verde claro:salida de audio lineal para la señal estéreo principal (altavoces frontales o
+                    auriculares)
+                    </li>
+                <li id="naranja">Naranja:salida de línea de audio para el canal central o subwoofer</li>
+                <li id="negro">Negro:una salida de audio lineal para sonido envolvente, por regla general, estos son
+                    altavoces traseros</li>
+            </ul>
+            <img id="puertos" src="./images/puertos TS.jpg" alt="conectores de la tarjeta de sonido">
+        </section>
+        
+        
+        <section id="instalacion">
+            <div class="mitad" id="izqda">
+                <h1>Instalación de una tarjeta de sonido</h1>
+                <p>Las tarjetas de sonido se incluyen para la comodidad del usuario en la mayoría de los PC,
+                    ya sea en la ranura de expansión PCI, integradas en la placa base o conectadas a través de
+                    puertos externos.</p>
+                <p>Como regla general, una tarjeta de sonido , en el caso del audio integrado, viene con un
+                    software patentado en el disco o se puede descargar desde el sitio web del fabricante. Los
+                    sistemas operativos modernos pueden detectar y descargar fácilmente drivers para tarjetas
+                    de sonido populares.Dicho software puede permitir al usuario realizar ajustes más finos y
+                    proporcionar herramientas para grabar, editar, etc.</p>
+            </div>
+            <div class="mitad" id="dcha">
+                <img id="drivers" src="./images/TS drivers.jpg" alt="imagen de drivers">
+            </div>
+            <div class="resetear"></div>
+
+        </section>
+
+        <section id="tipos">
+            <h1>Tipos de tarjeta de sonido</h1>
+            <p>Los tipos de tarjetas de sonido presentan un mismo fin de exteriorizar un audio, sin
+                embargo, se puede presentar distintos procesos de funcionamiento según las
+                características que estas presentan, entre los tipos de tarjetas de sonido se encuentran: </p>
+            <button class="accordion">EXTERNAS:</button>
+            <div class="panel">
+              <p>La tarjeta de sonido externa permite llevar a cabo conexiones de fuentes
+                externas que requieren de sonido como micrófonos, instrumentos musicales, reproductores
+                de audio, señales MIDI, etc.. .Dando la posibilidad de exteriorizar un audio.Se presenta una
+                particularidad para este tipo, ya que se presentan como tarjeta de sonido usb, por lo tanto
+                su proceso de funcionamiento es muy sencillo, con tan solo llevar a cabo tal tipo de
+                conexión se podrá comenzar a hacer uso de ella.</p>
+                <img id="externa" src="./images/TS externa.jpg" alt="Tarjeta de sonido externa">
+    
+            </div>
+            
+            <button class="accordion">INTERNA:</button>
+            <div class="panel">
+              <p>Este tipo de tarjetas de sonido son las más empleadas, ya que generalmente
+                los dispositivos que se usan diariamente cuentan con ellas, entre el funcionamiento que
+                lleva a cabo permite la introducción de sonido de tal manera que pueda ser digitalizado y
+                ser reproducido en los periféricos del ordenador en el cual se encuentra instalada de
+                manera interna.Un detalle importante es que las tarjetas de sonido interna no solo funcionan
+                para la proporción de sonido, también se encargan de su distribución, su procesamiento, así
+                como es capaz de llevar a cabo la mezcla de varios sonidos.</p>
+                <img id="interna" src="./images/TS interna.jpg" alt="Tarjeta de sonido interna">
+    
+            </div>
+            
+            
+            
+            
+             
+       </section>
+
+        
+
+        <section id="precios">
+            <h1>Precios de tarjetas de sonido</h1>
+            <div class="cuarto">
+                <img src="./images/Tarjeta de sonido1.png" alt="precio 1">
+                <h2>Asus Strix Raid DLX</h2>
+                <p>precio:238.35€</p>
+            </div>
+            <div class="cuarto">
+                <img src="./images/Tarjeta de sonido2.png" alt="precio 2">
+                <h2>Unotec Tarjeta de sonido</h2>
+                <p>precio:5.25€</p>
+            </div>
+            <div class="cuarto">
+                <img src="./images/Tarjeta de sonido3.png" alt="precio 3">
+                <h2>Creative Sound Blaster Z SE</h2>
+                <p>precio:89.10€</p>
+            </div>
+            <div class="cuarto">
+                <img src="./images/Tarjeta de sonido4.png" alt="precio 4">
+                <h2>Creative Sound BlasterX AE-5 Plus</h2>
+                <p>precio:137.14€</p>
+            </div>
+            <div class="resetear"></div>
+        </section>
+        <section id="marcas">
+            <h1>Mejores marcas actuales de tarjetas de sonido</h1>
+            
+            <button class="accordion">Asus</button>
+            <div class="panel">
+              <p>ASUSTeK Computer, Inc. Conocida simplemente como ASUS , es una corporación multinacional de hardware, electrónica y robótica con sede en Taipéi, Taiwán, en el Distrito de Beitou. Sus productos incluyen la producción de tarjetas madre (placas base), tarjetas gráficas, dispositivos ópticos, productos multimedia, periféricos, computadoras portátiles, netbooks, de sobremesa, servidores, estaciones de trabajo, tablets, teléfonos móviles, equipos de red, monitores, proyectores, y soluciones de refrigeración para computadoras. La compañía también es un fabricante OEM que produce componentes para otras compañías.</p>
+                <img id="asus" src="./images/ASUS_logo.jpg" alt="log de Asus">
+    
+            </div>
+            
+            <button class="accordion">Creative</button>
+            <div class="panel">
+              <p>Creative Technology Limited fábrica productos multimedia de computadora tiene su sede en Singapur, donde la firma fue fundada por Sim Wong Hoo (nacido en 1955) el 1 de julio de 1981. Tiene más de 5.000 empleados en todo el mundo. Sim sigue actuando como CEO de la compañía. La subsidiaria en Estados Unidos de la compañía es conocida como Creative Labs, Inc. </p>
+
+               <p> Actualmente, sus productos más lucrativos son probablemente los reproductores de audio digital Creative NOMAD/Creative Zen, que compiten con el iPod y otros reproductores.</p>
+                <img id="creative" src="./images/BLASTER_logo.png" alt="logo de creative">
+    
+            </div>
+            
+            
+            
+            
+             
+       </section>
+        <section id="opinion">
+        <h1>Opinión personal</h1>
+        <p>Personalmente la tarjeta de sonido me parece un dispositivo muy interesante a la par que
+            útil debido a que, gracias a este, la configuración de entrada y de salida de audio tiene un
+            amplio abanico de posibilidades, la cual puede ser muy util para los usuario que disponen
+            de este dispositivo.</p>
+    </section>
+    
+        <footer id="redes">
+            <p>Álvaro Almellones Fernández <br>
+            Desarrollo de aplicaiones web - Lenguaje de marcas <br>
+            <i class="fa fa-envelope" aria-hidden="true"> alvaro.almellones.fp@iescampanillas.com</i><br>
+            <i class="fa fa-instagram" aria-hidden="true"> alvaroaf_20</i><br>
+            <i class="fa fa-whatsapp" aria-hidden="true"> 628852676</i><br>
+            <i class="fa fa-twitter-square" aria-hidden="true"> alvaroaf_20</i></p> 
+        </footer>
+    </div>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
+        }
+        </script>
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+        </script>
+        
+</body>
+</html>
